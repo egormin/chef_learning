@@ -11,13 +11,14 @@ rpm -ivh chefdk-2.0.28-1.el7.x86_64.rpm
 
 Для конфигурации надо создать файл:
 ```
-~/.chef/solo.rb
+mkdir ~/.chef/
+touch ~/.chef/solo.rb
 ```
 И внести в него настройки:
 ```
 log_level :debug
-file_cache_path "/root/.chef/"
-cookbook_path "/root/chef_cookbooks"
-json_attribs "/root/.chef/runlist.json"
+file_cache_path "~/.chef/"
+cookbook_path "~/chef_cookbooks"
+json_attribs "~/.chef/runlist.json"
 ```
 Log level бывают: `:debug, :info, :warn, :error, and :fatal. Default value: :info`
