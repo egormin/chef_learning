@@ -20,4 +20,4 @@ file_cache_path "/root/.chef/"
 cookbook_path "/root/chef_cookbooks"
 json_attribs "/root/.chef/runlist.json"
 ```
-Log level бывают: ":debug, :info, :warn, :error, and :fatal. Default value: :info"
+Log level бывают: `:debug, :info, :warn, :error, and :fatal. Default value: :info`
