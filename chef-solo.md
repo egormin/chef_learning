@@ -21,7 +21,7 @@ file_cache_path "/root/.chef/"
 cookbook_path "/root/cookbooks"
 json_attribs "/root/.chef/runlist.json" 
 ```
-Log level бывают: `:debug, :info, :warn, :error, and :fatal. Default value: :info`
+Log level бывают: `:debug, :info, :warn, :error, :auto, and :fatal. Default value: :info`
 
 Comunity Cookbooks можно скачать отсюда:
 ```
