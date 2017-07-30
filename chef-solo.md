@@ -31,13 +31,15 @@ https://supermarket.chef.io/cookbooks/
 ```
 git clone https://github.com/miketheman/nginx
 ```
-Чтобы установить зависимости:
+Чтобы установить зависимости и распаковать кукбук:
 ```
 cd nginx
-berks install
+berks install   (Это если есть Berksfile)
+berks package
+tar xf tar xf cookbooks-1501414907.tar.gz -C /root/
 ```
-Это если есть `Berksfile`
-Он выглядит так:
+Он будет распакован в папку /root/cookbooks
+`Berksfile` выглядит так:
 ```
 source 'https://supermarket.chef.io'
 
