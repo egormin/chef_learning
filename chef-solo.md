@@ -65,3 +65,8 @@ nano /root/.chef/runlist.json
   "nginx": {"default_root":"/usr/share/nginx/html"} 
 } 
 ```
+
+Чтобы запустить кукбук:
+```
+chef-solo -c /root/.chef/solo.rb
+```
