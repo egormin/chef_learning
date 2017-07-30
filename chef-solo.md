@@ -17,9 +17,9 @@ touch ~/.chef/solo.rb
 И внести в него настройки:
 ```
 log_level :debug
-file_cache_path "~/.chef/"
-cookbook_path "~/chef_cookbooks"
-json_attribs "~/.chef/runlist.json"
+file_cache_path "/root/.chef/"
+cookbook_path "/root/cookbooks"
+json_attribs "/root/.chef/runlist.json" 
 ```
 Log level бывают: `:debug, :info, :warn, :error, and :fatal. Default value: :info`
 
