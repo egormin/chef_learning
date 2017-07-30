@@ -38,7 +38,8 @@ berks install   (Это если есть Berksfile)
 berks package
 tar xf tar xf cookbooks-1501414907.tar.gz -C /root/
 ```
-Он будет распакован в папку /root/cookbooks
+Он будет распакован в папку /root/cookbooks.
+
 `Berksfile` выглядит так:
 ```
 source 'https://supermarket.chef.io'
