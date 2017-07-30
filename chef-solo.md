@@ -56,3 +56,12 @@ group :integration do
   # end
 end
 ```
+
+Для запуска кукбука на выполнение, необходимо создать файл runlist.json с подобным содержимым:
+```
+nano /root/.chef/runlist.json
+{ 
+"run_list": ["recipe[nginx::default]", "recipe[iptables::default]"],
+  "nginx": {"default_root":"/usr/share/nginx/html"} 
+} 
+```
