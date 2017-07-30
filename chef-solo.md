@@ -22,3 +22,8 @@ cookbook_path "~/chef_cookbooks"
 json_attribs "~/.chef/runlist.json"
 ```
 Log level бывают: `:debug, :info, :warn, :error, and :fatal. Default value: :info`
+
+Comunity Cookbooks можно скачать отсюда:
+```
+https://supermarket.chef.io/cookbooks/
+```
